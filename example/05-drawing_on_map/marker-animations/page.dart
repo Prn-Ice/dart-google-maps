@@ -1,5 +1,5 @@
-import 'dart:html' hide Animation;
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart' hide Animation;
 
 final LatLng stockholm = LatLng(59.32522, 18.07002);
 final LatLng parliament = LatLng(59.327383, 18.06747);

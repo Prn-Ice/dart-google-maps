@@ -1,6 +1,5 @@
-import 'dart:html';
-
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart';
 
 void main() {
   final originalMapCenter = LatLng(-25.363882, 131.044922);

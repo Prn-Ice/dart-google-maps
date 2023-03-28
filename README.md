@@ -31,7 +31,7 @@ Please see the Google Maps JavaScript API v3 [Getting Started guide](https://dev
 A very [simple example](https://github.com/a14n/dart-google-maps/tree/master/example/01-basics/map-simple) :
 
 ```dart
-import 'dart:html';
+import 'package:universal_html/html.dart';
 
 import 'package:google_maps/google_maps.dart';
 

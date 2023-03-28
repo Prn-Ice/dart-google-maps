@@ -1,11 +1,10 @@
 @JS()
 library example;
 
-import 'dart:html' hide window;
-
 import 'package:google_maps/google_maps.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart' hide window;
 
 void initialize() {
   GMap(

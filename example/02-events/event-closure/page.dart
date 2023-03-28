@@ -1,7 +1,7 @@
-import 'dart:html';
 import 'dart:math' as math;
 
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart';
 
 void main() {
   final map = GMap(

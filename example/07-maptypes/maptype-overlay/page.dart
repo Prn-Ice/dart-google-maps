@@ -1,6 +1,5 @@
-import 'dart:html' hide Point;
-
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart' hide Point;
 
 late GMap map;
 final chicago = LatLng(41.850033, -87.6500523);

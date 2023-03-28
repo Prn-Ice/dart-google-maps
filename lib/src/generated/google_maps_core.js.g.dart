@@ -22,7 +22,7 @@
 library google_maps.core;
 
 import 'dart:async' show StreamController;
-import 'dart:html' show Document, Element, HtmlElement;
+import 'package:universal_html/html.dart' show Document, Element, HtmlElement;
 import 'dart:typed_data' show Float32List, Float64List;
 import 'dart:web_gl' show RenderingContext;
 import 'package:google_maps/google_maps_places.dart' show PlacePlusCode;
@@ -718,10 +718,12 @@ extension MapTypeStyle$Ext on MapTypeStyle {
 class MapMouseEvent {
   external factory MapMouseEvent();
 
-  external Object? /*MouseEvent?|TouchEvent?|PointerEvent?|KeyboardEvent?|Object?*/ get domEvent;
+  external Object? /*MouseEvent?|TouchEvent?|PointerEvent?|KeyboardEvent?|Object?*/
+      get domEvent;
 
   external set domEvent(
-      Object? /*MouseEvent?|TouchEvent?|PointerEvent?|KeyboardEvent?|Object?*/ value);
+      Object? /*MouseEvent?|TouchEvent?|PointerEvent?|KeyboardEvent?|Object?*/
+          value);
 
   external LatLng? get latLng;
 
@@ -1076,7 +1078,8 @@ class LatLngLiteral {
 @JS('google.maps.LatLngBounds')
 class LatLngBounds {
   external LatLngBounds([
-    Object? /*LatLng?|LatLngBounds?*/ swOrLatLngBounds, // ignore: unused_element
+    Object? /*LatLng?|LatLngBounds?*/
+        swOrLatLngBounds, // ignore: unused_element
     LatLng? ne, // ignore: unused_element
   ]);
 
@@ -2955,7 +2958,8 @@ extension Polygon$Ext on Polygon {
   set path(Object? /*MVCArray<LatLng?>?|List<LatLng?>?*/ path) =>
       _setPath(path);
   set paths(
-          Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/ paths) =>
+          Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/
+              paths) =>
       _setPaths(paths);
   set visible(bool? visible) => _setVisible(visible);
   Stream<PolyMouseEvent> get onClick {
@@ -3207,7 +3211,8 @@ extension Polygon$Ext on Polygon {
   }
 
   void _setPaths(
-      Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/ paths) {
+      Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/
+          paths) {
     callMethod(this, 'setPaths', [paths]);
   }
 
@@ -3249,10 +3254,12 @@ class PolygonOptions {
 
   external set map(GMap? value);
 
-  external Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/ get paths;
+  external Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/
+      get paths;
 
   external set paths(
-      Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/ value);
+      Object? /*MVCArray<MVCArray<LatLng?>?>?|MVCArray<LatLng?>?|List<List<LatLng?>?>?|List<LatLng?>?*/
+          value);
 
   external String? get strokeColor;
 
@@ -3646,7 +3653,8 @@ class RectangleOptions {
 @JS('google.maps.Circle')
 class Circle extends MVCObject {
   external Circle([
-    Object? /*Circle?|CircleOptions?*/ circleOrCircleOptions, // ignore: unused_element
+    Object? /*Circle?|CircleOptions?*/
+        circleOrCircleOptions, // ignore: unused_element
   ]);
 }
 
@@ -7821,10 +7829,12 @@ class Settings {
 
 @JS('google.maps.MapsNetworkError')
 class MapsNetworkError {
-  external Object? /*DirectionsStatus?|DistanceMatrixStatus?|ElevationStatus?|GeocoderStatus?|MaxZoomStatus?|PlacesServiceStatus?|StreetViewStatus?*/ get code;
+  external Object? /*DirectionsStatus?|DistanceMatrixStatus?|ElevationStatus?|GeocoderStatus?|MaxZoomStatus?|PlacesServiceStatus?|StreetViewStatus?*/
+      get code;
 
   external set code(
-      Object? /*DirectionsStatus?|DistanceMatrixStatus?|ElevationStatus?|GeocoderStatus?|MaxZoomStatus?|PlacesServiceStatus?|StreetViewStatus?*/ value);
+      Object? /*DirectionsStatus?|DistanceMatrixStatus?|ElevationStatus?|GeocoderStatus?|MaxZoomStatus?|PlacesServiceStatus?|StreetViewStatus?*/
+          value);
 
   external MapsNetworkErrorEndpoint? get endpoint;
 

@@ -1,11 +1,11 @@
 @JS()
 library test;
 
-import 'dart:html';
 import 'dart:math';
 
 import 'package:google_maps/google_maps.dart';
 import 'package:js_wrapping/js_wrapping.dart';
+import 'package:universal_html/html.dart';
 
 late GMap map;
 final mapStyle = <MapTypeStyle>[

@@ -183,7 +183,7 @@ $code
     final imports = <String, List<String>>{
       'core': [
         "import 'dart:async' show StreamController;",
-        "import 'dart:html' show Document, Element, HtmlElement;",
+        "import 'package:universal_html/html.dart' show Document, Element, HtmlElement;",
         "import 'dart:typed_data' show Float32List, Float64List;",
         "import 'dart:web_gl' show RenderingContext;",
         '',
@@ -202,21 +202,21 @@ $code
       ],
       'journey_sharing': [
         "import 'dart:async' show StreamController;",
-        "import 'dart:html' show Element;",
+        "import 'package:universal_html/html.dart' show Element;",
         '',
         "import 'package:google_maps/google_maps.dart';",
         "import 'package:js_wrapping/js_wrapping.dart';",
       ],
       'local_context': [
         "import 'dart:async' show StreamController;",
-        "import 'dart:html' show Element;",
+        "import 'package:universal_html/html.dart' show Element;",
         '',
         "import 'package:google_maps/google_maps.dart';",
         "import 'package:js_wrapping/js_wrapping.dart';",
       ],
       'places': [
         "import 'dart:async' show StreamController;",
-        "import 'dart:html' show InputElement;",
+        "import 'package:universal_html/html.dart' show InputElement;",
         '',
         "import 'package:google_maps/google_maps.dart';",
         "import 'package:js_wrapping/js_wrapping.dart';",

@@ -1,6 +1,7 @@
-import 'dart:html';
 import 'dart:math' show sqrt;
+
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart';
 
 // First, create an object containing LatLng and population for each city.
 final citymap = {

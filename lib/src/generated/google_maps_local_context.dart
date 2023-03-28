@@ -16,19 +16,20 @@
 library google_maps.local_context;
 
 import 'dart:async' show StreamController;
-import 'dart:html' show Element;
+
 import 'package:google_maps/google_maps.dart';
 import 'package:js_wrapping/js_wrapping.dart';
+import 'package:universal_html/html.dart' show Element;
 
 part 'local_context/local_context_map_view.dart';
 part 'local_context/local_context_map_view_options.dart';
-part 'local_context/place_type_preference.dart';
 part 'local_context/map_directions_options.dart';
 part 'local_context/map_directions_options_literal.dart';
 part 'local_context/pin_options.dart';
-part 'local_context/place_chooser_view_setup_options.dart';
 part 'local_context/place_chooser_layout_mode.dart';
 part 'local_context/place_chooser_position.dart';
-part 'local_context/place_details_view_setup_options.dart';
+part 'local_context/place_chooser_view_setup_options.dart';
 part 'local_context/place_details_layout_mode.dart';
 part 'local_context/place_details_position.dart';
+part 'local_context/place_details_view_setup_options.dart';
+part 'local_context/place_type_preference.dart';

@@ -1,7 +1,6 @@
-import 'dart:html';
-
 import 'package:google_maps/google_maps.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart';
 
 late GMap map;
 final brooklyn = LatLng(40.6743890, -73.9455);

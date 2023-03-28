@@ -1,5 +1,5 @@
-import 'dart:html' hide Point;
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart' hide Point;
 
 const IMAGE_URL =
     'https://google-developers.appspot.com/maps/documentation/javascript/examples/full';

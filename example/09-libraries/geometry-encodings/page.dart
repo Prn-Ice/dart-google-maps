@@ -1,7 +1,6 @@
-import 'dart:html' hide MouseEvent;
-
 import 'package:google_maps/google_maps.dart';
 import 'package:google_maps/google_maps_geometry.dart';
+import 'package:universal_html/html.dart' hide MouseEvent;
 
 late Polyline poly;
 

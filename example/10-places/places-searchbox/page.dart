@@ -1,7 +1,6 @@
-import 'dart:html' hide Point;
-
 import 'package:google_maps/google_maps.dart';
 import 'package:google_maps/google_maps_places.dart';
+import 'package:universal_html/html.dart' hide Point;
 
 void main() {
   final markers = <Marker>[];

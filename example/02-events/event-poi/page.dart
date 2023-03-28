@@ -1,8 +1,7 @@
-import 'dart:html';
-
 import 'package:google_maps/google_maps.dart';
 import 'package:google_maps/google_maps_places.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart';
 
 void main() {
   final origin = LatLng(-33.871, 151.197);

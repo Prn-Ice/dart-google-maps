@@ -1,6 +1,6 @@
-import 'dart:html';
 import 'package:google_maps/google_maps.dart';
 import 'package:google_maps/google_maps_drawing.dart';
+import 'package:universal_html/html.dart';
 
 const IMAGE_URL =
     'https://google-developers.appspot.com/maps/documentation/javascript/examples/full';

@@ -1,9 +1,9 @@
-import 'dart:html' hide Point;
 import 'dart:math' as math;
 
 import 'package:google_maps/google_maps.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart' hide Point;
 
 // This example defines an image map type using the Gall-Peters
 // projection.

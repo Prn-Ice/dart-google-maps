@@ -1,7 +1,6 @@
-import 'dart:html';
-
 import 'package:google_maps/google_maps.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart';
 
 late GMap map;
 final chicago = LatLng(41.850033, -87.650052);

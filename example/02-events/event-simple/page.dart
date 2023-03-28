@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'dart:html';
 
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart';
 
 void main() {
   final myLatLng = LatLng(-25.363, 131.044);

@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'dart:html';
-import 'dart:html' as html show MouseEvent;
 
 import 'package:google_maps/google_maps.dart';
 import 'package:js/js_util.dart';
 import 'package:js_wrapping/js_wrapping.dart';
+import 'package:universal_html/html.dart';
+import 'package:universal_html/html.dart' as html show MouseEvent;
 
 late GMap map;
 

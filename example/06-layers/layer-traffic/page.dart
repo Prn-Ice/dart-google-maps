@@ -1,5 +1,5 @@
-import 'dart:html';
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart';
 
 void main() {
   final myLatlng = LatLng(34.04924594193164, -118.24104309082031);

@@ -1,5 +1,5 @@
-import 'dart:html' hide Rectangle;
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart' hide Rectangle;
 
 void main() {
   final mapOptions = MapOptions()

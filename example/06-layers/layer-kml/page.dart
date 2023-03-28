@@ -1,5 +1,5 @@
-import 'dart:html';
 import 'package:google_maps/google_maps.dart';
+import 'package:universal_html/html.dart';
 
 void main() {
   final chicago = LatLng(41.875696, -87.624207);
